@@ -46,6 +46,44 @@ um den ganzen operativen Overhead zu kümmern. Wir sind Software, keine Verpacku
 layout: boxify-default
 ---
 
+<div class="eyebrow mb-2">Gliederung</div>
+
+# Agenda
+
+<div class="grid grid-cols-1 gap-3 mt-10 max-w-2xl">
+  <div class="flex justify-between items-baseline border-b border-clay pb-2">
+    <span class="font-serif text-2xl">1 · Einstieg: Marcos Problem</span>
+    <span class="text-stone font-sans text-sm">Folien 1–3</span>
+  </div>
+  <div class="flex justify-between items-baseline border-b border-clay pb-2">
+    <span class="font-serif text-2xl">2 · Markt &amp; Zielgruppe</span>
+    <span class="text-stone font-sans text-sm">Folien 4–5</span>
+  </div>
+  <div class="flex justify-between items-baseline border-b border-clay pb-2">
+    <span class="font-serif text-2xl">3 · Lösung &amp; Live-Demo</span>
+    <span class="text-stone font-sans text-sm">Folien 6–10</span>
+  </div>
+  <div class="flex justify-between items-baseline border-b border-clay pb-2">
+    <span class="font-serif text-2xl">4 · Business Model &amp; Theorie</span>
+    <span class="text-stone font-sans text-sm">Folien 11–12</span>
+  </div>
+  <div class="flex justify-between items-baseline border-b border-clay pb-2">
+    <span class="font-serif text-2xl">5 · Fazit &amp; Anhang</span>
+    <span class="text-stone font-sans text-sm">Folien 13–15</span>
+  </div>
+</div>
+
+<!--
+Speaker: Jakob.
+Kurzer, flüssiger Überblick — nicht vorlesen. Folienangaben sind Moodle-Pflicht und
+zeigen Struktur. Marcos Frage ("gibts denn kein Tool?") steht noch im Raum — Übergabe
+an Helen: "Ob Marco ein Einzelfall ist, zeigt euch jetzt Helen."
+-->
+
+---
+layout: boxify-default
+---
+
 <div class="eyebrow mb-1">Das Problem</div>
 
 <div class="mx-auto mt-auto w-135 shrink-0 rounded-xl overflow-hidden shadow-2xl font-sans">
@@ -129,44 +167,6 @@ drin ist" — genau das präsentieren wir auf Folie 6 als Boxify. NICHT auflöse
 Leitfrage: "Wie helfen wir kleinen Unternehmen, nachhaltige Abo-Boxen einfach, profitabel
 und mit geringem operativen Aufwand anzubieten?"
 Marco ist eine fiktive Persona (kein echtes Testimonial).
--->
-
----
-layout: boxify-default
----
-
-<div class="eyebrow mb-2">Gliederung</div>
-
-# Agenda
-
-<div class="grid grid-cols-1 gap-3 mt-10 max-w-2xl">
-  <div class="flex justify-between items-baseline border-b border-clay pb-2">
-    <span class="font-serif text-2xl">1 · Einstieg: Marcos Problem</span>
-    <span class="text-stone font-sans text-sm">Folien 1–3</span>
-  </div>
-  <div class="flex justify-between items-baseline border-b border-clay pb-2">
-    <span class="font-serif text-2xl">2 · Markt &amp; Zielgruppe</span>
-    <span class="text-stone font-sans text-sm">Folien 4–5</span>
-  </div>
-  <div class="flex justify-between items-baseline border-b border-clay pb-2">
-    <span class="font-serif text-2xl">3 · Lösung &amp; Live-Demo</span>
-    <span class="text-stone font-sans text-sm">Folien 6–10</span>
-  </div>
-  <div class="flex justify-between items-baseline border-b border-clay pb-2">
-    <span class="font-serif text-2xl">4 · Business Model &amp; Theorie</span>
-    <span class="text-stone font-sans text-sm">Folien 11–12</span>
-  </div>
-  <div class="flex justify-between items-baseline border-b border-clay pb-2">
-    <span class="font-serif text-2xl">5 · Fazit &amp; Anhang</span>
-    <span class="text-stone font-sans text-sm">Folien 13–15</span>
-  </div>
-</div>
-
-<!--
-Speaker: Jakob.
-Kurzer, flüssiger Überblick — nicht vorlesen. Folienangaben sind Moodle-Pflicht und
-zeigen Struktur. Marcos Frage ("gibts denn kein Tool?") steht noch im Raum — Übergabe
-an Helen: "Ob Marco ein Einzelfall ist, zeigt euch jetzt Helen."
 -->
 
 ---
