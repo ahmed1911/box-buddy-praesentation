@@ -1,5 +1,5 @@
 ---
-theme: ../slidev-theme-boxify
+theme: ./theme
 layout: boxify-cover
 title: Boxify — Abo-Boxen anbieten, ohne sich um alles drum herum zu kümmern
 ---
@@ -46,26 +46,115 @@ um den ganzen operativen Overhead zu kümmern. Wir sind Software, keine Verpacku
 layout: boxify-default
 ---
 
+<div class="eyebrow mb-1">Das Problem</div>
+
+<div class="mx-auto mt-auto w-135 shrink-0 rounded-xl overflow-hidden shadow-2xl font-sans">
+  <div class="flex items-center gap-3 bg-[#075E54] px-3 py-1.5 text-white">
+    <img src="/marco.png" class="w-9 h-9 rounded-full object-cover shrink-0" alt="Marco Brandt" />
+    <div class="leading-tight flex-1 min-w-0">
+      <div class="font-bold text-sm truncate">Marco Brandt · RoastClub ☕</div>
+      <div class="text-xs opacity-80">online</div>
+    </div>
+    <svg class="w-5 h-5 opacity-90" viewBox="0 0 24 24" fill="currentColor"><path d="M17 10.5V7a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-3.5l4 4v-11l-4 4z"/></svg>
+    <svg class="w-5 h-5 opacity-90" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.61 21 3 13.39 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.24.2 2.45.57 3.57a1 1 0 0 1-.25 1.02l-2.2 2.2z"/></svg>
+    <svg class="w-5 h-5 opacity-90" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/></svg>
+  </div>
+  <div class="wa-bg px-4 py-2 flex flex-col gap-1">
+    <div class="self-center bg-[#DCF0FA] text-[#5b6a72] text-[10px] px-3 py-0.5 rounded-md shadow-sm">HEUTE</div>
+    <div v-click class="wa-msg wa-tail">boah ich wollt heut eigentlich nur ne neue röstung testen ☕ <span class="wa-time">21:47</span></div>
+    <div v-click class="wa-msg">stattdessen rechne ich seit 2 std steuersätze aus… kaffee 7%, filter 19% und dann noch die kaffeesteuer pro kilo obendrauf <span class="wa-time">21:48</span></div>
+    <div v-click class="wa-msg">dazu 3 abo-mails: einer will pausieren, einer kündigt, eine zahlung ist geplatzt… trag ich alles von hand in die liste ein 🫠 <span class="wa-time">21:48</span></div>
+    <div v-click class="wa-msg">und morgen früh wieder etiketten klicken im dhl portal <span class="wa-time">21:49</span></div>
+    <div v-click class="wa-msg font-bold">ich bin kein sachbearbeiter sondern röstmeister 😤 <span class="wa-time">21:49</span></div>
+    <div v-click class="wa-msg">gibts denn kein tool wo einfach alles drin ist? abos, kalkulation, versand… <span class="wa-time">21:50</span></div>
+  </div>
+  <div class="flex items-center gap-2 bg-[#F0F0F0] px-3 py-1.5">
+    <div class="flex-1 flex items-center gap-2 bg-white rounded-full px-3 py-1 text-[#8696a0] text-sm">
+      <span>😊</span><span class="flex-1">Nachricht</span><span class="opacity-60">📎</span><span class="opacity-60">📷</span>
+    </div>
+    <div class="w-8 h-8 rounded-full bg-[#25D366] flex items-center justify-center shrink-0">
+      <svg class="w-4 h-4 text-white" viewBox="0 0 24 24" fill="currentColor"><path d="M12 14a3 3 0 0 0 3-3V5a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.92V21h2v-3.08A7 7 0 0 0 19 11h-2z"/></svg>
+    </div>
+  </div>
+</div>
+
+<p class="text-center text-stone text-xs mt-2 mb-auto opacity-70">Marco Brandt (38) — fiktive Persona, GF von RoastClub (800 Kaffee-Abos)</p>
+
+<style>
+.wa-bg {
+  background-color: #ECE5DD;
+  background-image: radial-gradient(#d8cfc4 1px, transparent 1px);
+  background-size: 14px 14px;
+}
+.wa-msg {
+  position: relative;
+  align-self: flex-start;
+  max-width: 88%;
+  background: #fff;
+  color: #111;
+  border-radius: 8px;
+  padding: 5px 10px;
+  font-size: 0.82rem;
+  line-height: 1.35;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+.wa-tail { border-top-left-radius: 0; }
+.wa-tail::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -7px;
+  border: 7px solid transparent;
+  border-top-color: #fff;
+  border-right-color: #fff;
+  border-left-width: 0;
+}
+.wa-time {
+  font-size: 0.6rem;
+  color: #888;
+  margin-left: 6px;
+  white-space: nowrap;
+  vertical-align: bottom;
+}
+</style>
+
+<!--
+Speaker: Jakob. SUCCESS: Emotional + Concrete.
+Nachrichten einzeln reinklicken — jede Bubble mappt auf eine Boxify-Säule:
+(1) Röstung = seine eigentliche Arbeit, (2) Steuersätze = Box-Konfigurator/Kalkulation,
+(3) Pausieren/Kündigung/geplatzte Zahlung = Abo-Management (exakt die drei Fälle von Folie 6!),
+(4) DHL-Etiketten = Logistik. Punchline: Röstmeister vs. Sachbearbeiter.
+Letzte Nachricht ist der Cliffhanger: Marco fragt selbst nach dem Tool, "wo einfach alles
+drin ist" — genau das präsentieren wir auf Folie 6 als Boxify. NICHT auflösen, stehen lassen.
+Leitfrage: "Wie helfen wir kleinen Unternehmen, nachhaltige Abo-Boxen einfach, profitabel
+und mit geringem operativen Aufwand anzubieten?"
+Marco ist eine fiktive Persona (kein echtes Testimonial).
+-->
+
+---
+layout: boxify-default
+---
+
 <div class="eyebrow mb-2">Gliederung</div>
 
 # Agenda
 
 <div class="grid grid-cols-1 gap-3 mt-10 max-w-2xl">
   <div class="flex justify-between items-baseline border-b border-clay pb-2">
-    <span class="font-serif text-2xl">1 · Einleitung</span>
+    <span class="font-serif text-2xl">1 · Einstieg: Marcos Problem</span>
     <span class="text-stone font-sans text-sm">Folien 1–3</span>
   </div>
   <div class="flex justify-between items-baseline border-b border-clay pb-2">
-    <span class="font-serif text-2xl">2 · Problem &amp; Zielgruppe</span>
+    <span class="font-serif text-2xl">2 · Markt &amp; Zielgruppe</span>
     <span class="text-stone font-sans text-sm">Folien 4–5</span>
   </div>
   <div class="flex justify-between items-baseline border-b border-clay pb-2">
     <span class="font-serif text-2xl">3 · Lösung &amp; Live-Demo</span>
-    <span class="text-stone font-sans text-sm">Folien 6–9</span>
+    <span class="text-stone font-sans text-sm">Folien 6–10</span>
   </div>
   <div class="flex justify-between items-baseline border-b border-clay pb-2">
     <span class="font-serif text-2xl">4 · Business Model &amp; Theorie</span>
-    <span class="text-stone font-sans text-sm">Folien 10–12</span>
+    <span class="text-stone font-sans text-sm">Folien 11–12</span>
   </div>
   <div class="flex justify-between items-baseline border-b border-clay pb-2">
     <span class="font-serif text-2xl">5 · Fazit &amp; Anhang</span>
@@ -76,27 +165,8 @@ layout: boxify-default
 <!--
 Speaker: Jakob.
 Kurzer, flüssiger Überblick — nicht vorlesen. Folienangaben sind Moodle-Pflicht und
-zeigen Struktur. Danach direkt in die Hook (Folie 3) übergehen.
--->
-
----
-layout: boxify-quote
----
-
-Ich wollte eigentlich eine neue Röstung testen. Stattdessen sitze ich abends in Excel: Kaffee 7 %, Keramikfilter 19 %, dazu die Kaffeesteuer pro Kilo. Parallel liegen drei E-Mails von Abonnenten, die pausieren wollen. Morgen früh die Versandetiketten im DHL-Portal. Ich bin Röstmeister. Stattdessen bin ich Sachbearbeiter.
-
-::author::
-Marco Brandt — fiktive Persona, GF von RoastClub (800 Kaffee-Abos)
-
-<!--
-Speaker: Jakob. SUCCESS: Emotional + Concrete.
-Marco wollte eine neue Röstung testen. Stattdessen: Excel-Kalkulation (7 % / 19 % / Kaffeesteuer),
-Abo-Verwaltung per E-Mail, DHL-Portal für Versandetiketten. Er jongliert fünf Insellösungen,
-die nicht miteinander sprechen. Er ist Röstmeister — aber er verbringt seine Abende als
-Sachbearbeiter. DAS ist das Problem, das Boxify löst.
-Leitfrage: "Wie helfen wir kleinen Unternehmen, nachhaltige Abo-Boxen einfach, profitabel
-und mit geringem operativen Aufwand anzubieten?"
-Marco ist eine fiktive Persona (kein echtes Testimonial).
+zeigen Struktur. Marcos Frage ("gibts denn kein Tool?") steht noch im Raum — Übergabe
+an Helen: "Ob Marco ein Einzelfall ist, zeigt euch jetzt Helen."
 -->
 
 ---
@@ -109,36 +179,36 @@ layout: boxify-default
 
 <p class="text-stone max-w-2xl mt-2">
   Methodik: Auswertung von E-Commerce-Foren, Fachartikeln und Case Studies zu Subscription-Commerce-Anbietern.
-  Ergebnis — Marco ist kein Einzelfall.
+  Ergebnis — Marco ist kein Einzelfall, sondern ein Branchenproblem.
 </p>
 
 <div class="grid grid-cols-2 gap-8 mt-10">
   <Card class="h-full">
-    <h3>Insellösungen-Chaos</h3>
+    <h3>Fragmentierter Tool-Markt</h3>
     <p class="mt-4 text-stone">
-      Shop, Kalkulation, Versand, Zahlung und Abo-Verwaltung laufen über komplett getrennte
-      Tools — Shopify + Excel + DHL-Portal + PayPal + E-Mail. Kein einziges davon spricht
-      mit dem anderen. Kein Gesamtüberblick über das eigene Business.
+      Bestehende Lösungen — Recharge, Subbly, Shopify-Apps — decken jeweils nur einen
+      Ausschnitt ab: Abo-Billing <em>oder</em> Shop <em>oder</em> Versand. Eine All-in-One-Plattform
+      für Abo-Boxen existiert nicht. Die Folge: jeder Anbieter bastelt sich seinen eigenen Tool-Zoo.
     </p>
   </Card>
   <Card class="h-full">
-    <h3>Steuer- &amp; Margen-Blindflug</h3>
+    <h3>Deutsche Steuer-Komplexität</h3>
     <p class="mt-4 text-stone">
-      Monatlich wechselnde Box-Inhalte = wechselnde MwSt.-Sätze (7 % / 19 %) + Verbrauchsteuern.
-      Die Excel-Mischkalkulation ist fehleranfällig — und frisst die knappe Zeit der
-      Gründer:innen, die eigentlich Handwerker sind, keine Buchhalter.
+      Wechselnde Box-Inhalte bedeuten wechselnde MwSt.-Sätze (7 % / 19 %) plus Verbrauchsteuern
+      wie die Kaffeesteuer — ein strukturelles Problem <em>aller</em> deutschen Abo-Box-Anbieter.
+      Die internationalen Tools bilden genau das nicht ab.
     </p>
   </Card>
 </div>
 
 <!--
 Speaker: Helen.
-"Marco ist kein Einzelfall. Kleine Abo-Anbieter kämpfen mit zwei zentralen Problemen:
-(1) Insellösungen-Chaos — fünf verschiedene Tools, die nicht miteinander sprechen.
-(2) Steuer- und Kalkulations-Chaos — monatlich wechselnder Produkt-Mix zieht
-unterschiedliche MwSt.-Sätze und Verbrauchsteuern nach sich.
-Das Ergebnis: operativer Overhead, Margen-Blindflug und Gründer:innen, die Sachbearbeiter
-spielen statt ihr Handwerk auszuüben."
+Zoom RAUS: von Marco auf den Markt. "Marco ist kein Einzelfall — wir haben Foren, Fachartikel
+und Case Studies ausgewertet. Zwei strukturelle Befunde:
+(1) Der Tool-Markt ist fragmentiert — jede Lösung deckt nur einen Ausschnitt ab, All-in-One
+für Abo-Boxen gibt es nicht.
+(2) Die deutsche Steuer-Komplexität (MwSt.-Mix + Verbrauchsteuern) bildet keines der
+internationalen Tools ab — hier liegt unsere Nische."
 Sekundärdaten-Ansatz betonen — das ist unsere Design-Thinking-Phase Empathize & Define:
 erst das Problem tief verstehen, dann als klaren Point-of-View definieren.
 -->
@@ -160,28 +230,31 @@ layout: boxify-default
 <div class="grid grid-cols-3 gap-6 mt-10">
   <Card class="text-center h-full">
     <div class="eyebrow mb-3">01</div>
-    <h3 class="text-xl">5 Tools, 0 Überblick</h3>
-    <p class="text-stone text-sm mt-2">Shopify + Excel + DHL + PayPal + E-Mail — nichts davon spricht miteinander. Marco ist Sachbearbeiter statt Röstmeister.</p>
+    <h3 class="text-xl">2 Std. für Steuersätze</h3>
+    <p class="text-stone text-sm mt-2">Jeden Monat neu, weil das Box-Extra wechselt — Abende, die eigentlich der nächsten Röstung gehören.</p>
   </Card>
   <Card class="text-center h-full">
     <div class="eyebrow mb-3">02</div>
-    <h3 class="text-xl">Steuer- &amp; Margen-Chaos</h3>
-    <p class="text-stone text-sm mt-2">7 % vs. 19 % + Kaffeesteuer — die Excel-Mischkalkulation ist ein fehleranfälliger Albtraum, jeden Monat neu.</p>
+    <h3 class="text-xl">800 Abos per Excel-Liste</h3>
+    <p class="text-stone text-sm mt-2">Pausen, Kündigungen, geplatzte Zahlungen — jede Änderung von Hand. Bei 800 Abos ein schleichender Vollzeitjob.</p>
   </Card>
   <Card class="text-center h-full">
     <div class="eyebrow mb-3">03</div>
-    <h3 class="text-xl">Abo-Verwaltung von Hand</h3>
-    <p class="text-stone text-sm mt-2">Pausen, Kündigungen, Zahlungen — alles per E-Mail und manueller Excel-Liste. Bei 800 Abos ein Vollzeitjob.</p>
+    <h3 class="text-xl">Ziel: 1.500 Abos</h3>
+    <p class="text-stone text-sm mt-2">Fast Verdopplung bis Jahresende — mit fünf Insellösungen und Handarbeit schlicht unerreichbar.</p>
   </Card>
 </div>
 
 <!--
 Speaker: Helen.
-"Marco braucht keine weitere Einzellösung — er braucht EINE Plattform, die alles unter
-einem Dach vereint: Box-Konfiguration, Kalkulation, Abo-Verwaltung und Versandplanung.
-Damit er Röstmeister sein kann, nicht Sachbearbeiter."
+Zoom REIN: zurück zu Marco, jetzt in Zahlen. Die drei Karten sind seine WhatsApp-Nachrichten
+vom Anfang, beziffert: die 2 Stunden Steuersätze, die Abo-Vorgänge von Hand, und sein
+Wachstumsziel als Deadline des Problems.
+Point-of-View: "Marco braucht keine weitere Einzellösung — er braucht EINE Plattform, die
+alles unter einem Dach vereint: Box-Konfiguration, Kalkulation, Abo-Verwaltung und
+Versandplanung. Damit er Röstmeister sein kann, nicht Sachbearbeiter."
 Besonderheit von RoastClub: monatlich wechselndes Extra → ständig wechselnder Steuer-
-und Kostenmix. Ziel: 1.500 Abos bis Jahresende — unmöglich mit 5 Insellösungen.
+und Kostenmix.
 -->
 
 ---
@@ -221,7 +294,7 @@ layout: boxify-section
 </div>
 
 <p class="mt-6 max-w-2xl text-lg opacity-80">
-  Wir liefern die Plattform — <strong>keine Kartons</strong>. Software, nicht Verpackung.
+  Wir liefern die Plattform — <strong>keine Kartons</strong>.
 </p>
 
 <!--
@@ -331,6 +404,10 @@ layout: boxify-default
   </Card>
 </div>
 
+<p class="text-stone text-sm mt-8 max-w-3xl">
+  <strong>Heute</strong> Marcos Cockpit — <strong>morgen</strong> die zweite Erlösstufe: dieselben Kennzahlen anonymisiert &amp; aggregiert als <strong>Branchen-Benchmark</strong> (Analyseverkauf, nicht Datenverkauf).
+</p>
+
 <!--
 Speaker: Ahmed — LIVE.
 "Marco sieht nun in Echtzeit seinen MRR, den CLV seiner Abonnent:innen und ob diese Box
@@ -338,7 +415,48 @@ bei 800 Abos wirklich Gewinn bringt. Problem gelöst!"
 Formeln: MRR = Verkaufspreis × (Lieferungen/Jahr ÷ 12); Lieferungen/Jahr = monatlich 12 /
 2-wöchentlich 26 / vierteljährlich 4. annualGrossMargin = Marge × Lieferungen/Jahr;
 CLV(12m) = annualGrossMargin. Eco-Score = mengengewichteter Mittelwert der Produkt-Scores.
-Übergabe zum Business-Teil.
+Benchmark-Ausblick (nur ein Satz): "Diese Kennzahlen laufen über viele Händler durch Boxify —
+anonymisiert und aggregiert werden sie perspektivisch selbst zum Produkt: ein Branchen-Benchmark
+(Analyseverkauf, kein Rohdaten-Verkauf, opt-in). Dazu später mehr."
+Übergang: "Kurz zur Technik dahinter — dann zum Geschäftsmodell."
+-->
+
+---
+layout: boxify-default
+---
+
+<div class="eyebrow mb-2">Umsetzung</div>
+
+# Technische Realisierung
+
+<div class="grid grid-cols-2 gap-8 mt-10">
+  <Card class="h-full">
+    <h3>Tech-Stack</h3>
+    <p class="mt-4 text-stone">
+      Vite · React 18 · TypeScript · Tailwind CSS. Alle Berechnungen laufen clientseitig über
+      React Context — dadurch reagiert der Wizard in Echtzeit, ganz ohne Server-Roundtrip.
+    </p>
+  </Card>
+  <Card class="h-full">
+    <h3>Sicher &amp; barrierefrei</h3>
+    <p class="mt-4 text-stone">
+      Privacy by Design: keine Nutzerdaten auf Servern (DSGVO-freundlich, client-side only).
+      Barrierefreiheit (A11y) von Anfang an mitgedacht.
+    </p>
+  </Card>
+</div>
+
+<!--
+Speaker: Ahmed.
+Kurzer Abriss direkt nach der Demo: Warum die App so schnell ist (React Context für
+clientseitige Steuerberechnungen) und dass Marcos Daten sicher sind, weil nichts serverseitig
+gespeichert wird (Privacy by Design, DSGVO-konform).
+Falls Rückfrage zur späteren Daten-Erlösstufe (kein Widerspruch!): Zwei getrennte Datenklassen —
+(1) personenbezogene Abonnenten-Daten bleiben client-side/geschützt, werden NIE verkauft;
+(2) nur aggregierte, anonymisierte Geschäftskennzahlen des Händlers speisen per Opt-in die
+Benchmarks. Das ist Analyseverkauf (aggregierte Analysen), NICHT Datenverkauf (Rohdaten) —
+Topic 2.01 / Parvinen 2020.
+Übergang zum Business-Teil: "So viel zur Umsetzung — jetzt: Wie verdienen wir damit Geld?"
 -->
 
 ---
@@ -418,38 +536,6 @@ passgenauere Kartons → wieder attraktiver für Händler.
 -->
 
 ---
-layout: boxify-default
----
-
-<div class="eyebrow mb-2">Umsetzung</div>
-
-# Technische Realisierung
-
-<div class="grid grid-cols-2 gap-8 mt-10">
-  <Card class="h-full">
-    <h3>Tech-Stack</h3>
-    <p class="mt-4 text-stone">
-      Vite · React 18 · TypeScript · Tailwind CSS. Alle Berechnungen laufen clientseitig über
-      React Context — dadurch reagiert der Wizard in Echtzeit, ganz ohne Server-Roundtrip.
-    </p>
-  </Card>
-  <Card class="h-full">
-    <h3>Sicher &amp; barrierefrei</h3>
-    <p class="mt-4 text-stone">
-      Privacy by Design: keine Nutzerdaten auf Servern (DSGVO-freundlich, client-side only).
-      Barrierefreiheit (A11y) von Anfang an mitgedacht.
-    </p>
-  </Card>
-</div>
-
-<!--
-Speaker: Jakob.
-Kurzer Abriss: Warum die App so schnell ist (React Context für clientseitige Steuerberechnungen)
-und dass Marcos Daten sicher sind, weil nichts serverseitig gespeichert wird (Privacy by Design,
-DSGVO-konform).
--->
-
----
 layout: boxify-section
 ---
 
@@ -515,6 +601,8 @@ layout: boxify-default
   <p><strong class="text-forest">SaaS</strong> — Software as a Service (Software als Abo-Dienst).</p>
   <p><strong class="text-forest">A11y</strong> — Accessibility (Barrierefreiheit).</p>
   <p><strong class="text-forest">Kaffeesteuer</strong> — Verbrauchsteuer auf Röstkaffee: 2,19 €/kg (§ 1 KaffeeStG).</p>
+  <p><strong class="text-forest">data-based / data-driven</strong> — Daten stützen die Entscheidung vs. Daten sind das Wertangebot (Parvinen 2020).</p>
+  <p><strong class="text-forest">Analyseverkauf</strong> — Verkauf aggregierter, anonymisierter Analysen (Benchmarks) statt Rohdaten — DSGVO-sicher.</p>
 </div>
 
 <!--

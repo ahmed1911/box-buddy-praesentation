@@ -1,0 +1,13 @@
+{
+  "name": "slidev-theme-boxify",
+  "version": "0.1.0",
+  "description": "Boxify corporate theme für Slidev — Moss/Clay-Palette, Instrument Serif Headings.",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "engines": {
+    "slidev": ">=0.48.0"
+  },
+  "license": "MIT"
+}
