@@ -1,0 +1,1 @@
+import{f as t,o,e as r,i as s,n}from"./modules/vue-DNPZr87A.js";import{u as i}from"./slidev/context-7UAfnhKa.js";const f=t({__name:"Card",props:{variant:{type:String,default:"default"}},setup(a){return i(),(e,l)=>(o(),r("div",{class:n(["boxify-card",a.variant==="moss"?"boxify-card-moss":"",a.variant==="clay"?"boxify-card-clay":""])},[s(e.$slots,"default")],2))}});export{f as _};

@@ -1,0 +1,16 @@
+{
+  "name": "boxify-slidev",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /praesentation/",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.49.0",
+    "@slidev/theme-default": "^0.21.2"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.61.1"
+  }
+}
