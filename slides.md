@@ -258,51 +258,77 @@ und Kostenmix.
 -->
 
 ---
-layout: boxify-section
+layout: boxify-default
 ---
 
-<div class="eyebrow mb-4 opacity-70">Ideate · Die Lösung</div>
+<div class="eyebrow mb-2">Ideate · Die Lösung</div>
 
 # Boxify — All-in-One für Abo-Boxen
 
-<p class="mt-6 max-w-2xl text-lg">
-  Boxify ist eine <strong>All-in-One SaaS-Plattform</strong>, die Marcos fünf
-  Insellösungen durch <strong>ein einziges System</strong> ersetzt.
+<p class="text-stone max-w-3xl mt-2">
+  Eine <strong>SaaS-Plattform</strong> ersetzt Marcos fünf Insellösungen — von der Bestellung
+  der Endkund:innen bis zur Auswertung, alles unter einem Dach.
 </p>
 
-<div class="grid grid-cols-4 gap-4 mt-8">
+<div class="mt-4 flex items-center gap-3">
+  <span class="eyebrow !text-moss text-xs shrink-0">Endkund:innen bestellen</span>
+  <div class="h-px flex-1 bg-clay"></div>
+</div>
+
+<Card variant="moss" class="!p-4 mt-3">
+  <div class="flex items-baseline gap-4">
+    <div class="font-bold !text-ivory shrink-0">Abo-Checkout</div>
+    <p class="text-sm !text-ivory opacity-90">
+      Aus jeder Box erzeugt Boxify eine <strong>hostbare Bestellseite</strong> — Variante &amp;
+      Intervall wählen, wiederkehrend zahlen (Stripe). Kein zweiter Shop nötig.
+    </p>
+  </div>
+</Card>
+
+<div class="mt-4 flex items-center gap-3">
+  <span class="eyebrow !text-moss text-xs shrink-0">Marco steuert im Hintergrund</span>
+  <div class="h-px flex-1 bg-clay"></div>
+</div>
+
+<div class="grid grid-cols-4 gap-4 mt-3">
   <Card class="text-center !p-4 !text-stone">
-    <div class="eyebrow mb-2 text-xs !text-moss">Säule 1</div>
+    <div class="eyebrow mb-2 text-xs !text-moss">Sortiment</div>
     <div class="text-base font-bold !text-moss">Box-Konfigurator</div>
     <div class="text-xs mt-1">Zusammenstellen &amp; Echtzeit-Marge</div>
   </Card>
   <Card class="text-center !p-4 !text-stone">
-    <div class="eyebrow mb-2 text-xs !text-moss">Säule 2</div>
+    <div class="eyebrow mb-2 text-xs !text-moss">Lifecycle</div>
     <div class="text-base font-bold !text-moss">Abo-Management</div>
     <div class="text-xs mt-1">Pausen, Kündigungen, Zahlungen</div>
   </Card>
   <Card class="text-center !p-4 !text-stone">
-    <div class="eyebrow mb-2 text-xs !text-moss">Säule 3</div>
+    <div class="eyebrow mb-2 text-xs !text-moss">Versand</div>
     <div class="text-base font-bold !text-moss">Logistik</div>
     <div class="text-xs mt-1">Versandzyklen &amp; Paketklassen</div>
   </Card>
   <Card class="text-center !p-4 !text-stone">
-    <div class="eyebrow mb-2 text-xs !text-moss">Säule 4</div>
+    <div class="eyebrow mb-2 text-xs !text-moss">Kennzahlen</div>
     <div class="text-base font-bold !text-moss">Analytics</div>
     <div class="text-xs mt-1">MRR, CLV, Churn, Eco-Score</div>
   </Card>
 </div>
 
-<p class="mt-6 max-w-2xl text-lg opacity-80">
-  Wir liefern die Plattform — <strong>keine Kartons</strong>.
+<p class="text-stone text-sm mt-4 max-w-3xl opacity-80">
+  Im Kern ein <strong>Subscription-Geschäftsmodell</strong>: Boxify wickelt den Abo-Handel ab
+  und liefert die Entscheidungsschicht darüber — wir liefern die Plattform, <strong>keine Kartons</strong>.
 </p>
 
 <!--
 Speaker: Helen.
-Kernbotschaft: Boxify ersetzt Marcos fünf Insellösungen durch eine Plattform. Vier Säulen.
-Alles, was er braucht, um sein Abo-Business zu betreiben, an einem Ort.
-Übergang zu Ahmed: "Wie sieht das in der Praxis aus? Ahmed zeigt euch jetzt unseren
-Prototypen live — wir fokussieren auf den Box-Konfigurator, das Herzstück des MVP."
+Kernbotschaft: Boxify ersetzt Marcos fünf Insellösungen durch eine Plattform — und schließt den
+Kreis vom Endkunden bis zur Auswertung. Front-of-House: aus jeder konfigurierten Box wird
+automatisch eine hostbare Abo-Bestellseite; Endkund:innen wählen Variante & Intervall und zahlen
+wiederkehrend über Stripe — kein separater Shop nötig. Back-Office: Konfigurator, Abo-Management,
+Logistik, Analytics — alles, was Marco zum Betrieb braucht, an einem Ort.
+Falls Nachfrage "welche fünf?": Shop, Excel-Kalkulation, Abo-Verwaltung, Payment, Versandportal —
+der Abo-Checkout ersetzt die Shop-Insel, Payment steckt im Abo-Management (Stripe).
+Übergang zu Ahmed: "Wie sieht das in der Praxis aus? Ahmed zeigt euch jetzt unseren Prototypen
+live — wir fokussieren auf den Box-Konfigurator, das Herzstück des MVP."
 -->
 
 ---
@@ -400,21 +426,25 @@ layout: boxify-default
   <Card variant="moss" class="text-center h-full">
     <div class="eyebrow mb-3 !text-ivory opacity-70">Impact</div>
     <h3 class="!text-ivory text-2xl">Eco-Score</h3>
-    <p class="text-sm opacity-90 mt-2">Mengengewichteter Nachhaltigkeits-Score &amp; CO₂-Footprint — unser Differenzierungsmerkmal am Markt.</p>
+    <p class="text-sm opacity-90 mt-2">Mengengewichteter Nachhaltigkeits-Score &amp; CO₂-Footprint — Nachhaltigkeit als zusätzlicher Kaufhebel für Abo-Kund:innen.</p>
   </Card>
 </div>
 
 <p class="text-stone text-sm mt-8 max-w-3xl">
-  <strong>Heute</strong> Marcos Cockpit — <strong>morgen</strong> die zweite Erlösstufe: dieselben Kennzahlen anonymisiert &amp; aggregiert als <strong>Branchen-Benchmark</strong> (Analyseverkauf, nicht Datenverkauf).
+  <strong>Heute</strong> Marcos Cockpit — <strong>morgen</strong> eine weitere Erlösstufe: dieselben Kennzahlen anonymisiert &amp; aggregiert als <strong>Branchen-Benchmark</strong> (Analyseverkauf, nicht Datenverkauf).
 </p>
 
 <!--
 Speaker: Ahmed — LIVE.
 "Marco sieht nun in Echtzeit seinen MRR, den CLV seiner Abonnent:innen und ob diese Box
 bei 800 Abos wirklich Gewinn bringt. Problem gelöst!"
+Kreis zum Endkunden schließen: Mit dem Abschluss ist die Box live — Boxify stellt automatisch
+die hostbare Abo-Bestellseite bereit, über die Marcos Kund:innen abonnieren (siehe Folie 6).
 Formeln: MRR = Verkaufspreis × (Lieferungen/Jahr ÷ 12); Lieferungen/Jahr = monatlich 12 /
 2-wöchentlich 26 / vierteljährlich 4. annualGrossMargin = Marge × Lieferungen/Jahr;
 CLV(12m) = annualGrossMargin. Eco-Score = mengengewichteter Mittelwert der Produkt-Scores.
+Falls Nachfrage zum CLV: Das ist bewusst ein 12-Monats-Deckungsbeitrag; Churn wird separat
+ausgewiesen und ist hier noch nicht eingerechnet (bewusste Ausbaustufe).
 Benchmark-Ausblick (nur ein Satz): "Diese Kennzahlen laufen über viele Händler durch Boxify —
 anonymisiert und aggregiert werden sie perspektivisch selbst zum Produkt: ein Branchen-Benchmark
 (Analyseverkauf, kein Rohdaten-Verkauf, opt-in). Dazu später mehr."
@@ -433,14 +463,16 @@ layout: boxify-default
   <Card class="h-full">
     <h3>Tech-Stack</h3>
     <p class="mt-4 text-stone">
-      Vite · React 18 · TypeScript · Tailwind CSS. Alle Berechnungen laufen clientseitig über
-      React Context — dadurch reagiert der Wizard in Echtzeit, ganz ohne Server-Roundtrip.
+      Vite · React 18 · TypeScript · Tailwind CSS. Der <strong>MVP</strong> rechnet clientseitig über
+      React Context — der Wizard reagiert in Echtzeit. Die Produktarchitektur ist als
+      <strong>Cloud-SaaS</strong> (AWS/GCP) angelegt.
     </p>
   </Card>
   <Card class="h-full">
     <h3>Sicher &amp; barrierefrei</h3>
     <p class="mt-4 text-stone">
-      Privacy by Design: keine Nutzerdaten auf Servern (DSGVO-freundlich, client-side only).
+      Privacy by Design: <strong>DSGVO-konforme Datentrennung</strong> — personenbezogene Abonnentendaten
+      bleiben geschützt, nur aggregierte, anonymisierte Kennzahlen speisen (Opt-in) die Benchmarks.
       Barrierefreiheit (A11y) von Anfang an mitgedacht.
     </p>
   </Card>
@@ -448,14 +480,14 @@ layout: boxify-default
 
 <!--
 Speaker: Ahmed.
-Kurzer Abriss direkt nach der Demo: Warum die App so schnell ist (React Context für
-clientseitige Steuerberechnungen) und dass Marcos Daten sicher sind, weil nichts serverseitig
-gespeichert wird (Privacy by Design, DSGVO-konform).
-Falls Rückfrage zur späteren Daten-Erlösstufe (kein Widerspruch!): Zwei getrennte Datenklassen —
-(1) personenbezogene Abonnenten-Daten bleiben client-side/geschützt, werden NIE verkauft;
+Kurzer Abriss direkt nach der Demo: Warum der MVP so schnell ist (React Context rechnet die
+Steuern clientseitig im Browser) — das ist der Prototyp-Stand. Das PRODUKT ist als Cloud-SaaS
+(AWS/GCP) angelegt; wichtig, dass diese Trennung klar ist, sonst Widerspruch zur Benchmark-Erlösstufe.
+Datenschutz-Kern: Zwei getrennte Datenklassen —
+(1) personenbezogene Abonnenten-Daten bleiben geschützt, werden NIE verkauft;
 (2) nur aggregierte, anonymisierte Geschäftskennzahlen des Händlers speisen per Opt-in die
 Benchmarks. Das ist Analyseverkauf (aggregierte Analysen), NICHT Datenverkauf (Rohdaten) —
-Topic 2.01 / Parvinen 2020.
+Parvinen 2020.
 Übergang zum Business-Teil: "So viel zur Umsetzung — jetzt: Wie verdienen wir damit Geld?"
 -->
 
@@ -517,11 +549,15 @@ layout: boxify-default
   <Card variant="moss" class="h-full">
     <div class="eyebrow mb-3 !text-ivory opacity-70">Stufe 3 · Skalierung</div>
     <h3 class="!text-ivory text-xl">Indirekter Netzeffekt</h3>
-    <p class="text-sm opacity-90 mt-2">Ab kritischer Masse: Kartonage-Hersteller als Supply-Side aktivieren → Provision als zweite Erlösstufe.</p>
+    <p class="text-sm opacity-90 mt-2">Ab kritischer Masse: Kartonage-Hersteller als Supply-Side aktivieren → Provision als zusätzliche Erlösquelle.</p>
   </Card>
 </div>
 
-<p class="text-stone text-sm mt-8 max-w-3xl">
+<p class="text-stone text-sm mt-6 max-w-3xl">
+  <strong>SaaS-Ökonomie:</strong> Als reine Software skaliert Boxify mit <strong>gegen Null gehenden Grenzkosten</strong> — jeder zusätzliche Händler bringt Umsatz, kaum Zusatzkosten. Genau das macht den planbaren MRR margenstark.
+</p>
+
+<p class="text-stone text-sm mt-4 max-w-3xl">
   <strong>Merksatz:</strong> Boxify stiftet Nutzen ab dem ersten Händler — die Netzeffekte sind die Kür, nicht die Voraussetzung. Und in keiner Stufe verkaufen wir selbst Kartons, wir vermitteln.
 </p>
 
@@ -551,8 +587,8 @@ layout: boxify-section
 
 <p class="mt-4 max-w-2xl text-lg opacity-80">
   <strong>Ausblick:</strong> Anbindung realer Logistik-APIs (DHL/DPD), Mehrwährungsfähigkeit,
-  aggregierte &amp; anonymisierte Branchen-Benchmarks als datenbasierte zweite Erlösstufe —
-  und mittelfristig die Aktivierung der Hersteller-Plattform.
+  die Aktivierung der Hersteller-Plattform (Vermittlungsprovisionen) sowie aggregierte,
+  anonymisierte Branchen-Benchmarks als datenbasierte Erlösstufen.
 </p>
 
 <p class="mt-8 font-serif text-2xl">Vielen Dank für die Aufmerksamkeit.</p>
@@ -561,7 +597,7 @@ layout: boxify-section
 Speaker: Jakob.
 Learnings (was gut lief: agile Entwicklung, Prototyping nach Design Thinking / Lean Startup).
 Bewusst ausgelassen und als Ausblick benannt: reale DHL/DPD-API-Anbindung, Mehrwährung sowie
-die datenbasierte zweite Erlösstufe (anonymisierte Branchen-Benchmarks aus den aggregierten
+die datenbasierte Erlösstufe (anonymisierte Branchen-Benchmarks aus den aggregierten
 Händlerdaten — knüpft an Big Data / datengetriebene Geschäftsmodelle an). Dank ans Plenum,
 dann Fragerunde.
 -->
@@ -577,7 +613,8 @@ layout: boxify-default
 <div class="mt-8 max-w-2xl font-sans text-stone leading-relaxed">
   <p class="border-b border-clay pb-3">Osterwalder, A. &amp; Pigneur, Y. — <em>Business Model Generation</em> (Business Model Canvas).</p>
   <p class="border-b border-clay pb-3 mt-3">Hahn et al. (2018) — Wertschöpfungsmechanismen digitaler Geschäftsmodelle (Neuheit, Effizienz, Komplementarität).</p>
-  <p class="border-b border-clay pb-3 mt-3">Wirtz, B. W. — <em>Electronic Business</em> (Plattformökonomie &amp; Netzeffekte).</p>
+  <p class="border-b border-clay pb-3 mt-3">Wirtz, B. W. — <em>Electronic Business</em> (4C-Net-Business-Modell, Plattformökonomie &amp; Netzeffekte).</p>
+  <p class="border-b border-clay pb-3 mt-3">Parvinen, P. et al. (2020) — <em>Advancing Data Monetization</em> (data-based vs. data-driven Geschäftsmodelle).</p>
 </div>
 
 <!--
@@ -600,7 +637,7 @@ layout: boxify-default
   <p><strong class="text-forest">BMC</strong> — Business Model Canvas (Geschäftsmodell auf einen Blick).</p>
   <p><strong class="text-forest">SaaS</strong> — Software as a Service (Software als Abo-Dienst).</p>
   <p><strong class="text-forest">A11y</strong> — Accessibility (Barrierefreiheit).</p>
-  <p><strong class="text-forest">Kaffeesteuer</strong> — Verbrauchsteuer auf Röstkaffee: 2,19 €/kg (§ 1 KaffeeStG).</p>
+  <p><strong class="text-forest">Kaffeesteuer</strong> — Verbrauchsteuer auf Röstkaffee: 2,19 €/kg (§ 2 KaffeeStG).</p>
   <p><strong class="text-forest">data-based / data-driven</strong> — Daten stützen die Entscheidung vs. Daten sind das Wertangebot (Parvinen 2020).</p>
   <p><strong class="text-forest">Analyseverkauf</strong> — Verkauf aggregierter, anonymisierter Analysen (Benchmarks) statt Rohdaten — DSGVO-sicher.</p>
 </div>
