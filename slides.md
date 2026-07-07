@@ -177,12 +177,12 @@ layout: boxify-default
 
 # Marktrecherche
 
-<p class="text-stone max-w-2xl mt-2">
-  Methodik: Auswertung von E-Commerce-Foren, Fachartikeln und Case Studies zu Subscription-Commerce-Anbietern.
-  Ergebnis — Marco ist kein Einzelfall, sondern ein Branchenproblem.
+<p class="text-stone mt-2">
+  Methodik: Auswertung von E-Commerce-Foren, Fachartikeln und Case Studies zu Subscription-Commerce-Anbietern —
+  Ergebnis: Marco ist kein Einzelfall, sondern ein Branchenproblem.
 </p>
 
-<div class="grid grid-cols-2 gap-8 mt-10">
+<div class="grid grid-cols-2 gap-8 mt-6">
   <Card class="h-full">
     <h3>Fragmentierter Tool-Markt</h3>
     <p class="mt-4 text-stone">
@@ -270,12 +270,12 @@ layout: boxify-default
   der Endkund:innen bis zur Auswertung, alles unter einem Dach.
 </p>
 
-<div class="mt-4 flex items-center gap-3">
+<div class="mt-3 flex items-center gap-3">
   <span class="eyebrow !text-moss text-xs shrink-0">Endkund:innen bestellen</span>
   <div class="h-px flex-1 bg-clay"></div>
 </div>
 
-<Card variant="moss" class="!p-4 mt-3">
+<Card variant="moss" class="!p-3 mt-2">
   <div class="flex items-baseline gap-4">
     <div class="font-bold !text-ivory shrink-0">Abo-Checkout</div>
     <p class="text-sm !text-ivory opacity-90">
@@ -285,35 +285,35 @@ layout: boxify-default
   </div>
 </Card>
 
-<div class="mt-4 flex items-center gap-3">
+<div class="mt-3 flex items-center gap-3">
   <span class="eyebrow !text-moss text-xs shrink-0">Marco steuert im Hintergrund</span>
   <div class="h-px flex-1 bg-clay"></div>
 </div>
 
-<div class="grid grid-cols-4 gap-4 mt-3">
-  <Card class="text-center !p-4 !text-stone">
-    <div class="eyebrow mb-2 text-xs !text-moss">Sortiment</div>
+<div class="grid grid-cols-4 gap-4 mt-2">
+  <Card class="text-center !p-3 !text-stone">
+    <div class="eyebrow mb-1 text-xs !text-moss">Sortiment</div>
     <div class="text-base font-bold !text-moss">Box-Konfigurator</div>
     <div class="text-xs mt-1">Zusammenstellen &amp; Echtzeit-Marge</div>
   </Card>
-  <Card class="text-center !p-4 !text-stone">
-    <div class="eyebrow mb-2 text-xs !text-moss">Lifecycle</div>
+  <Card class="text-center !p-3 !text-stone">
+    <div class="eyebrow mb-1 text-xs !text-moss">Lifecycle</div>
     <div class="text-base font-bold !text-moss">Abo-Management</div>
     <div class="text-xs mt-1">Pausen, Kündigungen, Zahlungen</div>
   </Card>
-  <Card class="text-center !p-4 !text-stone">
-    <div class="eyebrow mb-2 text-xs !text-moss">Versand</div>
+  <Card class="text-center !p-3 !text-stone">
+    <div class="eyebrow mb-1 text-xs !text-moss">Versand</div>
     <div class="text-base font-bold !text-moss">Logistik</div>
     <div class="text-xs mt-1">Versandzyklen &amp; Paketklassen</div>
   </Card>
-  <Card class="text-center !p-4 !text-stone">
-    <div class="eyebrow mb-2 text-xs !text-moss">Kennzahlen</div>
+  <Card class="text-center !p-3 !text-stone">
+    <div class="eyebrow mb-1 text-xs !text-moss">Kennzahlen</div>
     <div class="text-base font-bold !text-moss">Analytics</div>
     <div class="text-xs mt-1">MRR, CLV, Churn, Eco-Score</div>
   </Card>
 </div>
 
-<p class="text-stone text-sm mt-4 max-w-3xl opacity-80">
+<p class="text-stone text-sm mt-3 max-w-3xl opacity-80">
   Im Kern ein <strong>Subscription-Geschäftsmodell</strong>: Boxify wickelt den Abo-Handel ab
   und liefert die Entscheidungsschicht darüber — wir liefern die Plattform, <strong>keine Kartons</strong>.
 </p>
@@ -531,11 +531,11 @@ layout: boxify-default
 
 # Netzeffekte &amp; Lock-in
 
-<p class="text-stone max-w-2xl mt-2">
+<p class="text-stone mt-2">
   „Come for the tool, stay for the network." — eine <strong>sequenzielle</strong> Plattform-Strategie in drei Stufen.
 </p>
 
-<div class="grid grid-cols-3 gap-6 mt-10">
+<div class="grid grid-cols-3 gap-6 mt-5">
   <Card class="h-full">
     <div class="eyebrow mb-3">Stufe 1 · Heute</div>
     <h3 class="text-xl">Single-Player-Utility</h3>
@@ -553,12 +553,12 @@ layout: boxify-default
   </Card>
 </div>
 
-<p class="text-stone text-sm mt-6 max-w-3xl">
-  <strong>SaaS-Ökonomie:</strong> Als reine Software skaliert Boxify mit <strong>gegen Null gehenden Grenzkosten</strong> — jeder zusätzliche Händler bringt Umsatz, kaum Zusatzkosten. Genau das macht den planbaren MRR margenstark.
+<p class="text-stone text-sm mt-4">
+  <strong>SaaS-Ökonomie:</strong> Reine Software, <strong>Grenzkosten gegen Null</strong> — jeder weitere Händler bringt Umsatz bei kaum Zusatzkosten, der MRR bleibt margenstark.
 </p>
 
-<p class="text-stone text-sm mt-4 max-w-3xl">
-  <strong>Merksatz:</strong> Boxify stiftet Nutzen ab dem ersten Händler — die Netzeffekte sind die Kür, nicht die Voraussetzung. Und in keiner Stufe verkaufen wir selbst Kartons, wir vermitteln.
+<p class="text-stone text-sm mt-2">
+  <strong>4C-Einordnung (Wirtz):</strong> heute <strong>Commerce</strong>-Modell (Abo-Handel), mit den Benchmarks perspektivisch Richtung <strong>Context</strong> (Marktdaten bündeln). Netzeffekte sind dabei die Kür, nicht die Voraussetzung.
 </p>
 
 <!--
@@ -611,31 +611,32 @@ layout: boxify-default
 # Literaturverzeichnis
 
 <div class="mt-8 max-w-2xl font-sans text-stone leading-relaxed">
-  <p class="border-b border-clay pb-3">Osterwalder, A. &amp; Pigneur, Y. — <em>Business Model Generation</em> (Business Model Canvas).</p>
+  <p class="border-b border-clay pb-3">Osterwalder, A. &amp; Pigneur, Y. (2010) — <em>Business Model Generation</em> (Business Model Canvas).</p>
   <p class="border-b border-clay pb-3 mt-3">Hahn et al. (2018) — Wertschöpfungsmechanismen digitaler Geschäftsmodelle (Neuheit, Effizienz, Komplementarität).</p>
-  <p class="border-b border-clay pb-3 mt-3">Wirtz, B. W. — <em>Electronic Business</em> (4C-Net-Business-Modell, Plattformökonomie &amp; Netzeffekte).</p>
+  <p class="border-b border-clay pb-3 mt-3">Wirtz, B. W. (2001) — <em>Electronic Business</em>, 2. Aufl., Wiesbaden (4C-Net-Business-Modell, Plattformökonomie &amp; Netzeffekte).</p>
   <p class="border-b border-clay pb-3 mt-3">Parvinen, P. et al. (2020) — <em>Advancing Data Monetization</em> (data-based vs. data-driven Geschäftsmodelle).</p>
 </div>
 
 <!--
-Speaker: nur einblenden, nicht ausführen. Vollständige Quellen im Abstract / Handout.
+Speaker: nur einblenden, nicht ausführen.
 -->
 
 ---
 layout: boxify-default
 ---
 
-<div class="eyebrow mb-2">Backup</div>
-
 # Anhang &amp; Glossar
 
-<div class="grid grid-cols-2 gap-x-12 gap-y-3 mt-8 max-w-3xl font-sans text-stone">
+<div class="grid grid-cols-2 gap-x-12 gap-y-1.5 mt-5 max-w-3xl font-sans text-stone text-sm">
   <p><strong class="text-forest">MRR</strong> — Monthly Recurring Revenue (monatlich wiederkehrender Umsatz).</p>
   <p><strong class="text-forest">CLV</strong> — Customer Lifetime Value (Kundenwert über die Bindungsdauer).</p>
   <p><strong class="text-forest">CAC</strong> — Customer Acquisition Cost (Kundengewinnungskosten).</p>
   <p><strong class="text-forest">Churn</strong> — Abwanderungsrate der Abonnent:innen.</p>
   <p><strong class="text-forest">BMC</strong> — Business Model Canvas (Geschäftsmodell auf einen Blick).</p>
+  <p><strong class="text-forest">4C-Modell</strong> — Wirtz' Typologie digitaler Geschäftsmodelle: Content, Commerce, Context, Connection.</p>
   <p><strong class="text-forest">SaaS</strong> — Software as a Service (Software als Abo-Dienst).</p>
+  <p><strong class="text-forest">MVP</strong> — Minimum Viable Product (lauffähige Erstversion mit Kernfunktionen).</p>
+  <p><strong class="text-forest">Eco-Score</strong> — mengengewichteter Nachhaltigkeits-Kennwert einer Box (inkl. CO₂-Footprint).</p>
   <p><strong class="text-forest">A11y</strong> — Accessibility (Barrierefreiheit).</p>
   <p><strong class="text-forest">Kaffeesteuer</strong> — Verbrauchsteuer auf Röstkaffee: 2,19 €/kg (§ 2 KaffeeStG).</p>
   <p><strong class="text-forest">data-based / data-driven</strong> — Daten stützen die Entscheidung vs. Daten sind das Wertangebot (Parvinen 2020).</p>
