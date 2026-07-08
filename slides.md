@@ -35,13 +35,6 @@ title: Boxify — Abo-Boxen anbieten, ohne sich um alles drum herum zu kümmern
   <div class="opacity-80">Wirtschaftsinformatik B.Sc. · 09. Juli 2026</div>
 </div>
 
-<!--
-Speaker: Jakob.
-Kurze Begrüßung von Plenum und Dozent. Kernbotschaft direkt setzen: Boxify ist die
-All-in-One-Plattform, mit der kleine Unternehmen Abo-Boxen anbieten können, ohne sich
-um den ganzen operativen Overhead zu kümmern. Wir sind Software, keine Verpackungshändler.
--->
-
 ---
 layout: boxify-default
 ---
@@ -72,13 +65,6 @@ layout: boxify-default
     <span class="text-stone font-sans text-sm">Folien 13–15</span>
   </div>
 </div>
-
-<!--
-Speaker: Jakob.
-Kurzer, flüssiger Überblick — nicht vorlesen. Folienangaben sind Moodle-Pflicht und
-zeigen Struktur. Marcos Frage ("gibts denn kein Tool?") steht noch im Raum — Übergabe
-an Helen: "Ob Marco ein Einzelfall ist, zeigt euch jetzt Helen."
--->
 
 ---
 layout: boxify-default
@@ -156,19 +142,6 @@ layout: boxify-default
 }
 </style>
 
-<!--
-Speaker: Jakob. SUCCESS: Emotional + Concrete.
-Nachrichten einzeln reinklicken — jede Bubble mappt auf eine Boxify-Säule:
-(1) Röstung = seine eigentliche Arbeit, (2) Steuersätze = Box-Konfigurator/Kalkulation,
-(3) Pausieren/Kündigung/geplatzte Zahlung = Abo-Management (exakt die drei Fälle von Folie 6!),
-(4) DHL-Etiketten = Logistik. Punchline: Röstmeister vs. Sachbearbeiter.
-Letzte Nachricht ist der Cliffhanger: Marco fragt selbst nach dem Tool, "wo einfach alles
-drin ist" — genau das präsentieren wir auf Folie 6 als Boxify. NICHT auflösen, stehen lassen.
-Leitfrage: "Wie helfen wir kleinen Unternehmen, nachhaltige Abo-Boxen einfach, profitabel
-und mit geringem operativen Aufwand anzubieten?"
-Marco ist eine fiktive Persona (kein echtes Testimonial).
--->
-
 ---
 layout: boxify-default
 ---
@@ -201,18 +174,6 @@ layout: boxify-default
   </Card>
 </div>
 
-<!--
-Speaker: Helen.
-Zoom RAUS: von Marco auf den Markt. "Marco ist kein Einzelfall — wir haben Foren, Fachartikel
-und Case Studies ausgewertet. Zwei strukturelle Befunde:
-(1) Der Tool-Markt ist fragmentiert — jede Lösung deckt nur einen Ausschnitt ab, All-in-One
-für Abo-Boxen gibt es nicht.
-(2) Die deutsche Steuer-Komplexität (MwSt.-Mix + Verbrauchsteuern) bildet keines der
-internationalen Tools ab — hier liegt unsere Nische."
-Sekundärdaten-Ansatz betonen — das ist unsere Design-Thinking-Phase Empathize & Define:
-erst das Problem tief verstehen, dann als klaren Point-of-View definieren.
--->
-
 ---
 layout: boxify-default
 ---
@@ -244,18 +205,6 @@ layout: boxify-default
     <p class="text-stone text-sm mt-2">Fast Verdopplung bis Jahresende — mit fünf Insellösungen und Handarbeit schlicht unerreichbar.</p>
   </Card>
 </div>
-
-<!--
-Speaker: Helen.
-Zoom REIN: zurück zu Marco, jetzt in Zahlen. Die drei Karten sind seine WhatsApp-Nachrichten
-vom Anfang, beziffert: die 2 Stunden Steuersätze, die Abo-Vorgänge von Hand, und sein
-Wachstumsziel als Deadline des Problems.
-Point-of-View: "Marco braucht keine weitere Einzellösung — er braucht EINE Plattform, die
-alles unter einem Dach vereint: Box-Konfiguration, Kalkulation, Abo-Verwaltung und
-Versandplanung. Damit er Röstmeister sein kann, nicht Sachbearbeiter."
-Besonderheit von RoastClub: monatlich wechselndes Extra → ständig wechselnder Steuer-
-und Kostenmix.
--->
 
 ---
 layout: boxify-default
@@ -318,19 +267,6 @@ layout: boxify-default
   und liefert die Entscheidungsschicht darüber — wir liefern die Plattform, <strong>keine Kartons</strong>.
 </p>
 
-<!--
-Speaker: Helen.
-Kernbotschaft: Boxify ersetzt Marcos fünf Insellösungen durch eine Plattform — und schließt den
-Kreis vom Endkunden bis zur Auswertung. Front-of-House: aus jeder konfigurierten Box wird
-automatisch eine hostbare Abo-Bestellseite; Endkund:innen wählen Variante & Intervall und zahlen
-wiederkehrend über Stripe — kein separater Shop nötig. Back-Office: Konfigurator, Abo-Management,
-Logistik, Analytics — alles, was Marco zum Betrieb braucht, an einem Ort.
-Falls Nachfrage "welche fünf?": Shop, Excel-Kalkulation, Abo-Verwaltung, Payment, Versandportal —
-der Abo-Checkout ersetzt die Shop-Insel, Payment steckt im Abo-Management (Stripe).
-Übergang zu Ahmed: "Wie sieht das in der Praxis aus? Ahmed zeigt euch jetzt unseren Prototypen
-live — wir fokussieren auf den Box-Konfigurator, das Herzstück des MVP."
--->
-
 ---
 layout: boxify-default
 ---
@@ -353,13 +289,6 @@ layout: boxify-default
     <p class="text-moss text-sm mt-2">Handgefertigter Keramik-Handfilter (Zubehör · <strong>19 % MwSt.</strong>). Boxify erkennt den Satz automatisch.</p>
   </Card>
 </div>
-
-<!--
-Speaker: Ahmed — LIVE im Browser-MVP.
-"Wir sind im MVP. Wir legen Marcos Äthiopien-Box an: Kaffee (7 %) und Keramikfilter (19 %).
-Boxify erkennt die Steuersätze automatisch." Reihenfolge im Wizard: Sortiment → Kalkulation → Abschluss.
-Falls Live-Demo hakt: bei Folie 8/9 weiter mit den Notiz-Kennzahlen erzählen.
--->
 
 ---
 layout: boxify-default
@@ -390,15 +319,6 @@ layout: boxify-default
     <p class="text-moss text-sm mt-2">Auto-Preis aus Gesamtkosten; harte Blockade unter 20 % Marge — Boxify warnt, bevor Marco sich verschätzt.</p>
   </Card>
 </div>
-
-<!--
-Speaker: Ahmed — LIVE.
-"Was Marco in Excel Stunden kostet und trotzdem fehleranfällig bleibt, ist hier in Sekunden
-und zuverlässig."
-Kernlogik: MwSt.-Mix 7 %/19 %, Kaffeesteuer 2,19 €/kg auf Röstkaffee-Anteil,
-Default-Zielmarge 42 %, Auto-Preis = ceil(Gesamtkosten / (1 − Marge/100)).
-Der Kalkulations-Step blockiert hart bei Marge < 20 %.
--->
 
 ---
 layout: boxify-default
@@ -434,23 +354,6 @@ layout: boxify-default
   <strong>Heute</strong> Marcos Cockpit — <strong>morgen</strong> eine weitere Erlösstufe: dieselben Kennzahlen anonymisiert &amp; aggregiert als <strong>Branchen-Benchmark</strong> (Analyseverkauf, nicht Datenverkauf).
 </p>
 
-<!--
-Speaker: Ahmed — LIVE.
-"Marco sieht nun in Echtzeit seinen MRR, den CLV seiner Abonnent:innen und ob diese Box
-bei 800 Abos wirklich Gewinn bringt. Problem gelöst!"
-Kreis zum Endkunden schließen: Mit dem Abschluss ist die Box live — Boxify stellt automatisch
-die hostbare Abo-Bestellseite bereit, über die Marcos Kund:innen abonnieren (siehe Folie 6).
-Formeln: MRR = Verkaufspreis × (Lieferungen/Jahr ÷ 12); Lieferungen/Jahr = monatlich 12 /
-2-wöchentlich 26 / vierteljährlich 4. annualGrossMargin = Marge × Lieferungen/Jahr;
-CLV(12m) = annualGrossMargin. Eco-Score = mengengewichteter Mittelwert der Produkt-Scores.
-Falls Nachfrage zum CLV: Das ist bewusst ein 12-Monats-Deckungsbeitrag; Churn wird separat
-ausgewiesen und ist hier noch nicht eingerechnet (bewusste Ausbaustufe).
-Benchmark-Ausblick (nur ein Satz): "Diese Kennzahlen laufen über viele Händler durch Boxify —
-anonymisiert und aggregiert werden sie perspektivisch selbst zum Produkt: ein Branchen-Benchmark
-(Analyseverkauf, kein Rohdaten-Verkauf, opt-in). Dazu später mehr."
-Übergang: "Kurz zur Technik dahinter — dann zum Geschäftsmodell."
--->
-
 ---
 layout: boxify-default
 ---
@@ -478,19 +381,6 @@ layout: boxify-default
   </Card>
 </div>
 
-<!--
-Speaker: Ahmed.
-Kurzer Abriss direkt nach der Demo: Warum der MVP so schnell ist (React Context rechnet die
-Steuern clientseitig im Browser) — das ist der Prototyp-Stand. Das PRODUKT ist als Cloud-SaaS
-(AWS/GCP) angelegt; wichtig, dass diese Trennung klar ist, sonst Widerspruch zur Benchmark-Erlösstufe.
-Datenschutz-Kern: Zwei getrennte Datenklassen —
-(1) personenbezogene Abonnenten-Daten bleiben geschützt, werden NIE verkauft;
-(2) nur aggregierte, anonymisierte Geschäftskennzahlen des Händlers speisen per Opt-in die
-Benchmarks. Das ist Analyseverkauf (aggregierte Analysen), NICHT Datenverkauf (Rohdaten) —
-Parvinen 2020.
-Übergang zum Business-Teil: "So viel zur Umsetzung — jetzt: Wie verdienen wir damit Geld?"
--->
-
 ---
 layout: image
 image: /bmc.png
@@ -502,26 +392,6 @@ class: bmc-fullscreen
 <style>
 .bmc-fullscreen { background-color: #FAF9F6 !important; }
 </style>
-
-<!--
-Speaker: Ahmed.
-"Wie verdienen wir Geld? Erlösmodell = Hybrid-SaaS: monatliche Grundgebühr + Transaktions-
-gebühr je aktiver Abo-Box (skaliert mit dem Erfolg des Händlers)."
-Nutzen ruht auf 3 Wertschöpfungsmechanismen (Hahn et al. 2018):
-1. Neuheit — eine All-in-One-Plattform speziell für Abo-Box-Anbieter, das gibt es so nicht.
-2. Effizienz — ein Tool statt fünf Insellösungen, spart dem Händler Stunden pro Woche.
-3. Komplementarität — Kopplung von Kalkulation, Abo-Verwaltung, Logistik & Nachhaltigkeits-
-   kennzahlen in einem System.
-Revenue Streams: Hybrid-SaaS (Grundgebühr + Transaktionsgebühr); Stufe 2 = Vermittlungs-
-provisionen von Kartonagen-Herstellern (nie Kartonverkauf); Stufe 3 = aggregierte,
-anonymisierte Branchen-Benchmarks als datenbasiertes Produkt (Topic Big Data). Customer
-Segments zweiseitig: Demand-Side (Subscription-Commerce-KMUs wie RoastClub) heute,
-Supply-Side perspektivisch.
-Channels & Go-to-Market (Topic Digitale Vertriebskanäle): Akquise zunächst D2C —
-Content/SEO, Fachforen für Subscription-Commerce, Empfehlungen zufriedener Händler;
-später Cross-Selling über die Hersteller-Plattform. Customer Relationships: self-service
-SaaS mit geführtem Onboarding-Wizard (niedrige CAC, hohe Retention).
--->
 
 ---
 layout: boxify-default
@@ -561,16 +431,6 @@ layout: boxify-default
   <strong>4C-Einordnung (Wirtz):</strong> heute <strong>Commerce</strong>-Modell (Abo-Handel), mit den Benchmarks perspektivisch Richtung <strong>Context</strong> (Marktdaten bündeln). Netzeffekte sind dabei die Kür, nicht die Voraussetzung.
 </p>
 
-<!--
-Speaker: Helen.
-SaaS-Ökonomie als Fundament: planbarer MRR, CLV vs. CAC, Lock-in. Darauf die sequenzielle
-Plattform: erst unverzichtbares Steuerungs-Tool, dann über indirekte Netzeffekte eine
-verteidigbare Marktposition in der Nische Subscription-Commerce-Software.
-Lock-in-Detail: hohe Wechselkosten durch Prozessintegration, Verlust der Datenhistorie,
-Umschulungsaufwand. Netzeffekt-Spirale: mehr Händler → mehr Hersteller → bessere Preise/
-passgenauere Kartons → wieder attraktiver für Händler.
--->
-
 ---
 layout: boxify-section
 ---
@@ -593,15 +453,6 @@ layout: boxify-section
 
 <p class="mt-8 font-serif text-2xl">Vielen Dank für die Aufmerksamkeit.</p>
 
-<!--
-Speaker: Jakob.
-Learnings (was gut lief: agile Entwicklung, Prototyping nach Design Thinking / Lean Startup).
-Bewusst ausgelassen und als Ausblick benannt: reale DHL/DPD-API-Anbindung, Mehrwährung sowie
-die datenbasierte Erlösstufe (anonymisierte Branchen-Benchmarks aus den aggregierten
-Händlerdaten — knüpft an Big Data / datengetriebene Geschäftsmodelle an). Dank ans Plenum,
-dann Fragerunde.
--->
-
 ---
 layout: boxify-default
 ---
@@ -616,10 +467,6 @@ layout: boxify-default
   <p class="border-b border-clay pb-3 mt-3">Wirtz, B. W. (2001) — <em>Electronic Business</em>, 2. Aufl., Wiesbaden (4C-Net-Business-Modell, Plattformökonomie &amp; Netzeffekte).</p>
   <p class="border-b border-clay pb-3 mt-3">Parvinen, P. et al. (2020) — <em>Advancing Data Monetization</em> (data-based vs. data-driven Geschäftsmodelle).</p>
 </div>
-
-<!--
-Speaker: nur einblenden, nicht ausführen.
--->
 
 ---
 layout: boxify-default
@@ -642,7 +489,3 @@ layout: boxify-default
   <p><strong class="text-forest">data-based / data-driven</strong> — Daten stützen die Entscheidung vs. Daten sind das Wertangebot (Parvinen 2020).</p>
   <p><strong class="text-forest">Analyseverkauf</strong> — Verkauf aggregierter, anonymisierter Analysen (Benchmarks) statt Rohdaten — DSGVO-sicher.</p>
 </div>
-
-<!--
-Speaker: Backup-Folie für die Fragerunde des Dozenten. Begriffe bei Bedarf erklären.
--->
